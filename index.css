@@ -1,0 +1,78 @@
+/* tagname (ex: body, h1, p) is for styling by tag name */
+/* .class (ex: blue-text) is for styling by class */
+/* #id (ex: #li1) is for styling by id */
+/* * sets the default style for all elements */
+h1 {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+h3 {
+    font-size: 125%;
+    border: 1px solid black;
+}
+div {
+    font-size: 1.1em;
+}
+label {
+    font-weight: bolder;
+}
+a {
+    text-decoration: dotted underline;
+    border: 2px dotted blue;
+    display: flex;
+    width: 65px;
+    padding: 5px;
+}
+ol {
+     text-decoration: underline;
+}
+footer {
+        background-color: rgba(47, 255, 196, 0.31);
+        border: 2px double black;
+        padding-left: 5px;
+        padding-right: 5px;
+        box-sizing: content-box;
+        box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+        align-items: center;
+}
+h2 {
+    text-align: center;
+    margin: 5px;
+}
+input {
+    border: 2px solid black;
+}
+textarea {
+          border: solid black;
+}
+head, body, footer {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    height: auto;
+}
+.copyright {
+            border: 1px solid black;
+            padding: 5px;   
+            margin: 5px 0px 5px 0px;
+}
+#age {
+        background-color: rgb(156, 239, 159);
+}
+#email {
+        background-color: #efd66585;
+}
+#submit {
+         background-color: lightgoldenrodyellow;
+         border-width: 3px;
+         border-radius: 25px 25px 35px 35px;
+}
+#firstPhoto {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
